@@ -40,7 +40,7 @@ Este programa utiliza corpora do nltk, então você precisa baixar as corpora ne
    nltk.download('words')
    nltk.download('mac_morpho')
    nltk.download('cess_esp')
-
+   ```
 🎨 Interface Gráfica
 A interface gráfica foi construída com Tkinter e inclui:
 
@@ -56,11 +56,3 @@ Barra de Progresso: para mostrar o andamento da geração.
    ├── gerador_palavras.py    # Script principal
    ├── README.md              # Este arquivo!
    └── palavras.txt           # Arquivo gerado após a execução
-
-📝 Contribuição
-Sinta-se à vontade para abrir issues e pull requests! Qualquer ajuda é bem-vinda. 🤝
-
-📜 Licença
-Este projeto está licenciado sob a MIT License. Consulte o arquivo LICENSE para mais informações.
-
-Feito com ❤️ por Gabriel Ricardo
