@@ -30,8 +30,8 @@ Este projeto é uma aplicação em Python com interface gráfica feita usando **
 4. Escolha o número de palavras, o tamanho mínimo, os idiomas e clique em Gerar. Você também pode optar por exibir as palavras geradas diretamente na interface.
 
 🔧 Requisitos
-Python 3.x
-Bibliotecas: nltk, tkinter
+- Python 3.x
+- Bibliotecas: nltk, tkinter
 
 🔗 Instalação das Corpora Necessárias
 Este programa utiliza corpora do nltk, então você precisa baixar as corpora necessárias ao executar pela primeira vez:
@@ -44,10 +44,10 @@ Este programa utiliza corpora do nltk, então você precisa baixar as corpora ne
 🎨 Interface Gráfica
 A interface gráfica foi construída com Tkinter e inclui:
 
-Campos de Entrada: para especificar o número de palavras e tamanho mínimo.
-Checkboxes: para escolher os idiomas de geração.
-Botão de Geração: que inicia o processo e salva o arquivo com as palavras.
-Barra de Progresso: para mostrar o andamento da geração.
+- Campos de Entrada: para especificar o número de palavras e tamanho mínimo.
+- Checkboxes: para escolher os idiomas de geração.
+- Botão de Geração: que inicia o processo e salva o arquivo com as palavras.
+- Barra de Progresso: para mostrar o andamento da geração.
 
 📂 Estrutura de Arquivos
    ```bash
