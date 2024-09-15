@@ -35,11 +35,11 @@ Bibliotecas: nltk, tkinter
 
 🔗 Instalação das Corpora Necessárias
 Este programa utiliza corpora do nltk, então você precisa baixar as corpora necessárias ao executar pela primeira vez:
-```bash
-import nltk
-nltk.download('words')
-nltk.download('mac_morpho')
-nltk.download('cess_esp')
+   ```bash
+   import nltk
+   nltk.download('words')
+   nltk.download('mac_morpho')
+   nltk.download('cess_esp')
 
 🎨 Interface Gráfica
 A interface gráfica foi construída com Tkinter e inclui:
@@ -50,12 +50,12 @@ Botão de Geração: que inicia o processo e salva o arquivo com as palavras.
 Barra de Progresso: para mostrar o andamento da geração.
 
 📂 Estrutura de Arquivos
-```bash
-gerador-palavras/
-│
-├── gerador_palavras.py    # Script principal
-├── README.md              # Este arquivo!
-└── palavras.txt           # Arquivo gerado após a execução
+   ```bash
+   gerador-palavras/
+   │
+   ├── gerador_palavras.py    # Script principal
+   ├── README.md              # Este arquivo!
+   └── palavras.txt           # Arquivo gerado após a execução
 
 📝 Contribuição
 Sinta-se à vontade para abrir issues e pull requests! Qualquer ajuda é bem-vinda. 🤝
